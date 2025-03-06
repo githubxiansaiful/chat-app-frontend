@@ -1,28 +1,37 @@
-# Kitty Chat Web Application
-
-A real-time chat application where users can communicate with each other, share messages, and enjoy an interactive chat experience. Designed with a playful and engaging theme focused on cats, the application is perfect for fun conversations!
-
-## Live Demo
-
-You can check out the live version of the app here:  
-[Kitty Chat Live](https://kitty-chat.vercel.app/)
-
-## Features
-
-- Real-time messaging with friends or other users
-- User-friendly interface with a cat-themed design
-- Chat rooms where multiple users can join and chat simultaneously
-- Supports custom username selection for users
-- Emoji and text-based communication
-
-## Technologies Used
-
-- **Frontend**: React, Next.js
-- **Backend**: Node.js, Socket.io (for real-time communication)
-- **Deployment**: Vercel
-- **Styling**: Tailwind CSS, DaisyUI
-- **State Management**: Zustand
-- **Real-time Communication**: Socket.io-client
-- **Routing**: React Router DOM
-- **Toast Notifications**: React Hot Toast
-- **HTTP Requests**: Axios
+{
+    "name": "frontend",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.0.9",
+        "axios": "^1.8.1",
+        "lucide": "^0.477.0",
+        "lucide-react": "^0.477.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-hot-toast": "^2.5.2",
+        "react-router-dom": "^7.2.0",
+        "socket.io-client": "^4.8.1",
+        "tailwindcss": "^4.0.9",
+        "zustand": "^5.0.3"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.21.0",
+        "@types/react": "^19.0.10",
+        "@types/react-dom": "^19.0.4",
+        "@vitejs/plugin-react": "^4.3.4",
+        "daisyui": "^5.0.0",
+        "eslint": "^9.21.0",
+        "eslint-plugin-react-hooks": "^5.1.0",
+        "eslint-plugin-react-refresh": "^0.4.19",
+        "globals": "^15.15.0",
+        "vite": "^6.2.0"
+    }
+}
